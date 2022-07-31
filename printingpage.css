@@ -41,6 +41,14 @@ body {
     bottom: 0px;
   }
 
+.mainbutton2 {
+    position: relative;
+    top: 375px;
+    left: 489px;
+    right: 695px;
+    margin-top: 50px;
+}
+
 .sticky-footer {
     position: sticky;
     top: 100%;
@@ -309,7 +317,7 @@ body {
 }
 
 #main__img {
-    height: 60%;
+    height: 90%;
     width: 60%;
 }
 
