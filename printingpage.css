@@ -12,33 +12,37 @@
 }
 
 footer {
-    width: 100%;
-    height: 50px;
-    color: #fff;
     text-align: center;
-
+    color: black;
+    background: #fff;
 }
 
 p {
     color: black;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
 body {
     min-height: 100vh;
 }
 
-                
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #dddddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #db1d5c;
+}
+  
 .mainbutton {
     position: relative;
     top: 350px;
     left: 0px;
     right: 695px;
-    bottom: 0px;
+    bottom: 10px;
   }
 
 .mainbutton2 {

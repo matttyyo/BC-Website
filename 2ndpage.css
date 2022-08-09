@@ -21,20 +21,28 @@ footer {
 
 p {
     color: black;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
 body {
     min-height: 100vh;
 }
 
-.sticky-footer {
-    position: sticky;
-    top: 100%;
+footer {
+    text-align: center;
+    color: black;
+    background: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #dddddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #db1d5c;
 }
 
 .text-center {

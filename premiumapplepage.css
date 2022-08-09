@@ -22,6 +22,18 @@ h1 {
     text-align: center;
 }
 
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #dddddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #db1d5c;
+}
+
 h2 {
     font-family: "Poppins", sans-serif;
 }
@@ -38,6 +50,7 @@ h5 {
 footer {
     text-align: center;
     color: black;
+    background: #fff;
 }
 
 strong {

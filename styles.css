@@ -24,6 +24,7 @@ h5 {
 footer {
     text-align: center;
     color: black;
+    background: #fff;
 }
 
 strong {
@@ -33,6 +34,19 @@ strong {
 
 body {
     min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #dddddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #db1d5c;
 }
 
 .text-center {
@@ -307,11 +321,6 @@ body {
 
 .main__img--container {
     text-align: center;
-}
-
-#main__img {
-    height: 60%;
-    width: 60%;
 }
 
 /* Mobile Responsive */

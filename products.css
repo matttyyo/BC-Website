@@ -49,6 +49,19 @@ h5 {
 footer {
     text-align: center;
     color: black;
+    background: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #dddddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #db1d5c;
 }
 
 strong {
@@ -515,4 +528,3 @@ body {
     overflow: hidden;
     margin-top: -6px;
     }
-/* Footer CSS */
